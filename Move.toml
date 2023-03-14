@@ -3,8 +3,13 @@ name = 'SatayProduct'
 version = '1.0.0'
 
 [addresses]
-satay_product = "0x2"
+satay_ferum_automated = "0x2"
 
 [dependencies.satay]
 git = "https://github.com/satay-protocol/satay-aptos"
 rev = "main"
+
+[dependencies.ferum]
+git = "https://github.com/ferum-dex/ferum.git"
+rev = "main"
+subdir = "contract"
